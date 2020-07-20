@@ -54,6 +54,33 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.72</version>
         </dependency>
+
+        <!--引入h2数据库-->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.200</version>
+        </dependency>
+
+        <!--引入MySQL数据库-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.41</version>
+        </dependency>
+
+        <!--引入jdbc，引入jdbc或者jpa，自动导入HikariCP数据源-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-jdbc</artifactId>
+        </dependency>
+
+        <!--引入mybatis-->
+        <dependency>
+            <groupId>org.mybatis.spring.boot</groupId>
+            <artifactId>mybatis-spring-boot-starter</artifactId>
+            <version>2.0.1</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -7,7 +7,8 @@ package com.hzk.community.community.dto;
  */
 public class GithubUser {
     private String name;
-    private  String id;
+    //除了GitHub还要支持其他多平台，所以这里设置为Long
+    private  Long id;
     private String bio;
 
     public String getName() {
@@ -18,11 +19,11 @@ public class GithubUser {
         this.name = name;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

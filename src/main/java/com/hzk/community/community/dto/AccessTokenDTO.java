@@ -1,6 +1,11 @@
 package com.hzk.community.community.dto;
 
 /**
+ * 类与类之间的网络传输，命名为DTO，表示为网络传输的一个Object
+ * 在数据当中的应该创建为一个model
+ */
+
+/**
  * http://localhost:8080/callback?code=ff3b215f7448749d81c3&state=1
  * 该实体对象封装了access token中的属性
  * 如果传输参数拥有两个以上的参数，那么就要把这些参数封装成一个对象
